@@ -1,0 +1,37 @@
+
+body{
+  background: #ffffff;
+}
+.dark{
+  background: #000000;
+  color: #fff;
+}
+.checkbox{
+  position: absolute;
+}
+
+.label{
+  background: #ddd;
+  width: 50px;
+  height: 20px;
+  padding: 5px;
+  display: flex;
+  position: relative;
+  border-radius: 50px;
+}
+.label .ball{
+  background: #ffffff;
+  width: 23px;
+  height: 23px;
+  position: absolute;
+  border-radius: 50%;
+  top: 3.2px;
+  left: 3px;
+  transform: translate(0);
+  transition: .2s;
+}
+
+.checkbox:checked + .label .ball{
+  transform: translate(30.2px);
+  transition: .2s;
+}
