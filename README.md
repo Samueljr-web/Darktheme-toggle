@@ -2,4 +2,4 @@
 Toggler for darktheme 
 
 
-https://app.netlify.com/sites/mystifying-stonebraker-d4f335
+https://mystifying-stonebraker-d4f335.netlify.app/
